@@ -70,7 +70,7 @@ body{
     margin: 40px;
     display: flex;
     align-items: end;
-    gap: 40px;
+    gap: 60px;
 }
 .galeria .imagemDado6{
     width: 75px;
@@ -98,4 +98,31 @@ body{
 .pergunta input[type="text"]{
     padding: 4px;
     outline: none;
+}
+
+@media(max-width:700px){
+    .container{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+        flex-direction: column;
+    }
+}
+@media(max-width:480px){
+    .container img{
+    width: 300px;
+    height: 301px;}
+    .galeriaDados{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    }
+}
+@media(max-width:384px){
+    .container img{
+    width: 280px;
+    height: 230px;
+}
 }
