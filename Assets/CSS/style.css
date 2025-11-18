@@ -1,0 +1,85 @@
+:root {
+  --bulma-primary-h: 243deg;
+  --bulma-primary-s: 27%;
+  --bulma-primary-l: 61%;
+  --bulma-link-h: 227deg;
+  --bulma-link-s: 45%;
+  --bulma-link-l: 84%;
+  --bulma-info-h: 174deg;
+  --bulma-info-s: 85%;
+  --bulma-info-l: 61%;
+  --bulma-success-h: 174deg;
+  --bulma-success-s: 85%;
+  --bulma-success-l: 61%;
+  --bulma-warning-h: 227deg;
+  --bulma-warning-s: 63%;
+  --bulma-warning-l: 18%;
+  --bulma-danger-h: 227deg;
+  --bulma-danger-s: 63%;
+  --bulma-danger-l: 18%;
+}
+
+
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111D4A;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.container img{
+    width: 420px;
+    height: 421px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 34px;
+}
+.dados img{
+    width: 140px;
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.galeriaDados{
+    margin-top: 40px;
+    display: flex;
+    align-items: end;
+    gap: 40px;
+}
+.galeria .imagemDado6{
+    width: 80px;
+}
+.galeria .imagemDado20{
+    width: 120px;
+}
+.galeria .imagemDado4{
+    width: 80px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
