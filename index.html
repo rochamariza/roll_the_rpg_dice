@@ -7,28 +7,34 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
 >
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="shortcut icon" href="Assets/IMGS/favico.ico" type="image/x-icon">
     <title>RPG Dices</title>
 </head>
 <body>
-    <!---<div class="container">
+    <div class="container">
         <div class="part1">
-            <h1 class="is-size-4 has-text-centered has-text-weight-bold has-text-white">O seu lugar para jogar<br>diferentes dados<br>
-de RPG’s e facilitar sessões onlines</h1>
-            <button class="button is-success">Comece Aqui</button>
+            <h1 class="is-size-4 has-text-centered has-text-weight-bold has-text-white">Facilite suas sessões online<br> com diferentes dados<br>
+de RPG’s</h1>
+            <!--<button class="button is-success">Comece Aqui</button>-->
         </div>
         <img src="Assets/IMGS/dices.png" alt="Foto página principal">
-    </div> --->
+    </div>
     <div class="galeria">
         <h1 class="is-size-5 has-text-centered has-text-weight-bold has-text-white">Tipos de dados</h1>
         <div class="galeriaDados">
-            <div class="flex"><img src="Assets/IMGS/dice 6/dice6.png" alt="Dice 6 sides" class="imagemDado6"><button class="button is-info is-small has-text-weight-bold" id="botaoRandom" >Escolher d6</button></div>
-            <div class="flex"><img src="Assets/IMGS/d20/D20 - 20.png" alt="D20" class="imagemDado20"><button class="button is-info is-small has-text-weight-bold" id="botaoRandom" >Escolher 20</button></div>
-            <div class="flex"><img src="Assets/IMGS/dice 4/dice4.png" alt="Dice 6 sides" class="imagemDado4"><button class="button is-info is-small has-text-weight-bold" id="botaoRandom" >Escolher d4</button></div>
+            <div class="flex"><img src="Assets/IMGS/dice 6/dice6.png" alt="Dice 6 sides" class="imagemDado6"><button class="button is-info is-small has-text-weight-bold" id="botaoD6" >Escolher d6</button></div>
+            <div class="flex"><img src="Assets/IMGS/d20/D20 - 20.png" alt="D20" class="imagemDado20"><button class="button is-info is-small has-text-weight-bold" id="botaoD20" >Escolher d20</button></div>
+            <div class="flex"><img src="Assets/IMGS/dice 4/dice4.png" alt="Dice 6 sides" class="imagemDado4"><button class="button is-info is-small has-text-weight-bold" id="botaoD4" >Escolher d4</button></div>
         </div>
     </div>
     <div class="dados">
+        <div class="pergunta">
+            <h1 class="is-size-6 has-text-centered has-text-weight-bold has-text-white">Quanto você precisa tirar?</h1>
+            <input type="text" name="perguntaComparar" id="perguntaComparar" placeholder="Escreva o número">
+            <h1 class="is-size-4 has-text-centered has-text-weight-bold has-text-white" id="resposta"></h1>
+        </div>
         <img src="Assets/IMGS/d20/D20 - 20.png" alt="D20" class="imagemDado">
         <button class="button is-info has-text-weight-bold" id="botaoRandom" >Rolar dado!!</button>
     </div>
